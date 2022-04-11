@@ -1,0 +1,44 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=drive-width,initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--<link rel="stylesheet" href="./login.css">-->
+    <link type="text/css" href="{{ url_for('static', filename='login.css') }}" rel="stylesheet">
+<!-- font-awesome 图标字体 http://www.fontawesome.com.cn/faicons/#web-application -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" media="screen" rel="stylesheet" type="text/css">
+<title>Cartoon Converter Platform</title>
+</head>
+
+<body>
+<!--<Font size="5" style="align-content: center;color: white"> Cartoon Converter Platform </Font>-->
+    <div id="login-box">
+        <h1>Welcome Back</h1>
+        <div class="form">
+		    <form method="POST">
+            <div class="item">
+                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                <input type="text" name="username" placeholder="username">
+            </div>
+            <div class="item">
+                <i class="fa fa-key" aria-hidden="true"></i>
+                <input type="text" name="password" placeholder="password">
+            </div>
+            <br />
+	            {% if message %}
+                <span style="color: deepskyblue">
+                    {{message}}</span>
+                {% endif %}
+			<br />
+            <button type="submit">Log In</button>
+        	<br />
+                <br />
+             <font size="2" color="#ffdead">Don't have an account yet?</font> <a href="{{ url_for('register') }}" style="color:greenyellow;" rel="external nofollow" >Sign up</a>
+        	<br />
+		</form>
+        </div>
+    </div>
+</body>
+</html>
