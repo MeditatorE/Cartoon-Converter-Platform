@@ -1,6 +1,7 @@
 from database_config import DB
 
 db = DB()
+db.connect()
 
 def is_null(username, password):
     if (username == '' or password == ''):
@@ -10,7 +11,6 @@ def is_null(username, password):
 
 def is_existed(username, password):
     sql = "SELECT * FROM user WHERE username ='%s' and password ='%s'" % (username, password)
-    db.connect()
     cur = db.query(sql)
     result = cur.fetchall()
     if (len(result) == 0):
@@ -21,7 +21,6 @@ def is_existed(username, password):
 
 def exist_user(username, password):
     sql = "SELECT * FROM user WHERE username ='%s'" % (username)
-    db.connect()
     cur = db.query(sql)
     result = cur.fetchall()
     if (len(result) == 0):
@@ -31,6 +30,5 @@ def exist_user(username, password):
 
 def add_user(username, password):
     sql = "INSERT INTO user(username, password) VALUES ('%s','%s')" % (username, password)
-    db.connect()
     cur = db.query(sql)
     db.commit()

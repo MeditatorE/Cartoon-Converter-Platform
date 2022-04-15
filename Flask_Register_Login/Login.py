@@ -53,3 +53,6 @@ def LoginWebPage():
     webbrowser.open_new(url)
     app.run()
 
+
+LoginWebPage()
+
