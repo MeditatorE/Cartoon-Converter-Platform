@@ -18,4 +18,4 @@ The picture resource sharing platform is another part of this project. This plat
 
 We have provided an interface for entering the platform on the converter and uploading pictures to the platform.
 
-![](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/Demo/Convert.gif)
+![](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/Demo/platform.gif)
