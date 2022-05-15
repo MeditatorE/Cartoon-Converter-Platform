@@ -11,5 +11,6 @@ Cartoon Converter is an image processing tool that runs locally. It can convert 
 We provide a Demo here:
 
 ![](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/Demo/Convert.gif)
-If you want to see the detailed user manual, [**please click here**]()
+
+If you want to see the detailed user manual, [**please click here**](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/homepage/html/UserManual.html)
 
