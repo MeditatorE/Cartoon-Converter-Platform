@@ -26,10 +26,12 @@ We have provided an interface for entering the platform on the converter and upl
 ![](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/Demo/platform.gif)
 # How to start?
 1. Clone this repo
-``
 
 ``
+git clone
+``
 2. Install required modules
+
 ``
 pip install -r requirements.txt
 ``
