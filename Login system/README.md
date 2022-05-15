@@ -8,12 +8,12 @@ The login system is mapped to the host address by Flask, and a database needs to
 # Here is the Demo of Login System:
 ![](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/Demo/login.gif)
 
-# How to start?
-## 1.Install Flask
+# How to run this system?
+## 1. Install Flask
 ```
 pip install Flask
 ```
-## 2.
+## 2. Run [**Login_GUI.py**](https://github.com/MeditatorE/Face-time-travel-machine/blob/main/main.py)
 ```
 python Login_GUI.py
 ```
