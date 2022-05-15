@@ -27,11 +27,11 @@ We have provided an interface for entering the platform on the converter and upl
 # How to start?
 1. Clone this repo
 
-``
-git clone
-``
+```
+git clone https://github.com/MeditatorE/Cartoon-Converter-Platform
+```
 2. Install required modules
 
-``
+```
 pip install -r requirements.txt
-``
+```
