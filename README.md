@@ -35,3 +35,7 @@ https://github.com/MeditatorE/Cartoon-Converter-Platform.git
 ```
 pip install -r requirements.txt
 ```
+### 3. Run main.py
+```
+python main.py
+```
