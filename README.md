@@ -39,3 +39,4 @@ pip install -r requirements.txt
 ```
 python main.py
 ```
+# How did we develop this project?
