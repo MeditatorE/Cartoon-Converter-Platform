@@ -9,4 +9,5 @@ This project is mainly divided into two parts, namely cartoon converter and imag
 Cartoon Converter is an image processing tool that runs locally. It can convert any style of pictures into cartoon style. We now provide four styles for you to choose from. If you want to know more about it, [**please click here**](https://github.com/MeditatorE/Cartoon-Converter-Platform/tree/main/pretrained_model).
 ### How to use The Converter?
 We provide a Demo here:
+![](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/Demo/Convert.gif)
 
