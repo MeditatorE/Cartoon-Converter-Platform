@@ -1,7 +1,7 @@
 # Cartoon-Converter-Platform
 This Project for CS252 Final Project @Macau university of Science and Technology.
 
-Please click here for our [**personal homepage**](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/homepage/html/AboutUs.html) to contact us.
+Please click here for our [**personal homepage**](https://github.com/MeditatorE/Cartoon-Converter-Platform/tree/main/homepage) to contact us.
 
 # What is the "Cartoon Converter Platform"? 
 This project is mainly divided into two parts, namely cartoon converter and image resource sharing platform. You can access our platform through cartoon converter.
