@@ -12,7 +12,7 @@ We provide a Demo here:
 
 ![](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/Demo/Convert.gif)
 
-If you want to see the detailed user manual, [**please click here**](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/homepage/html/UserManual.html).
+If you want to see the detailed user manual, [**please click here**](https://github.com/MeditatorE/Cartoon-Converter-Platform/tree/main/homepage).
 ## Picture Resource Sharing Platform
 The picture resource sharing platform is another part of this project. This platform is used in conjunction with the converter. Its function is to provide a resource sharing platform for artists to download and upload pictures, and to provide creative inspiration and picture resources for art practitioners. Anyone can upload or download pictures from this platform. Of course, we also provide an interface on the converter to help users easily upload their converted cartoon-style pictures.
 ### How to visit the platform?
