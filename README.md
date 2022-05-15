@@ -24,7 +24,7 @@ Anyone can upload or download pictures from this platform. Of course, we also pr
 We have provided an interface for entering the platform on the converter and uploading pictures to the platform.
 
 ![](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/Demo/platform.gif)
-# How to start?
+## How to start?
 ### 1. Clone this repo
 
 ```
