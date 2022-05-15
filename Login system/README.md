@@ -1,2 +1,4 @@
 # Flask_Register_Login
- 如何用Flask去注册登录（信息保存在Mysql数据库系统中）
+Log in page built by Flask
+
+The login system has been cancelled and this folder is obsolete
