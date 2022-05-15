@@ -8,6 +8,8 @@ from tkinter.ttk import *
 import subprocess
 from shutil import copy
 from tkinter import filedialog
+from tkinter import messagebox
+from chevereto import upload_to_chevereto
 
 global t
 
@@ -51,14 +53,14 @@ middle_label.place(x=160, y=125)
 
 # 4. set button
 
-window.button_upload = Button(window, text="Upload", width=10)
-window.button_upload.place(x=150, y=530)
+window.button_upload = Button(window, text="Batch Upload", width=10)
+window.button_upload.place(x=110, y=540)
 
-window.button_start = Button(window, text="Start", width=10)
-window.button_start.place(x=350, y=530)
+window.button_start = Button(window, text="Start Convert", width=10)
+window.button_start.place(x=350, y=540)
 
-window.button_clear = Button(window, text="Display", width=10)
-window.button_clear.place(x=550, y=530)
+window.button_clear = Button(window, text="Display Picture", width=10)
+window.button_clear.place(x=580, y=540)
 
 # 5. set combox
 
@@ -80,46 +82,53 @@ combobox.place(x=350, y=400)
 # 6. set hyperlink and text
 
 def callback1(event):
-    webbrowser.open_new("https://www.artstation.com/?sort_by=community")
+    webbrowser.open_new("http://jellyfin.orangetien.icu:1500/")
 
 
 link1 = tk.Label(window, text="Go to Platform", fg="grey")
-link1.place(x=568, y=580)
+link1.place(x=598, y=585)
 link1.bind("<Button-1>", callback1)
 
 
 def callback2(event):
-    root = Tk()
-    root.geometry("500x100")
-    root.title('About us')
-    text = Text(root, width=550, height=100)
-    text.insert(INSERT, "                 Copyright@\n"
-                        "                  Email: 15620242877@163.com\n"
-                        "           Sun Chen, Zhou Yunpeng, Tian Jincheng, Chen Xinyun\n")
-    text.place(x=0, y=0)
-    text.configure(state="disabled")
+    ans = messagebox.askyesno("Message","Are you sure you want to upload all your pictures?")
+    # return True/False
+    path = "./store"
+    if (ans == True):
+        # upload pictures to platform
+        upload_to_chevereto(path)
+        i = 0
+        # clear the folder
+        path_dir = os.listdir(path)
+        for filename in path_dir:  # 遍历pathDir下的所有文件filename
+            i = i + 1
+            full_path = os.path.join(path, filename)  # 文件的绝对路径(包含文件的后缀名)
+            if (i > 0):
+                os.remove(full_path)
+        messagebox.askokcancel("Message","Done! The picture has been uploaded, thanks for your contribution！")
+    if (ans == False):
+        i = 0
+        # clear the folder
+        path_dir = os.listdir(path)
+        for filename in path_dir:  # 遍历pathDir下的所有文件filename
+            i = i + 1
+            full_path = os.path.join(path, filename)  # 文件的绝对路径(包含文件的后缀名)
+            if (i > 0):
+                os.remove(full_path)
 
 
-link2 = tk.Label(window, text="About us", fg="grey")
-link2.place(x=384, y=580)
+
+link2 = tk.Label(window, text="Update pictures to platform!",underline=1, fg="Blue")
+link2.place(x=325, y=585)
 link2.bind("<Button-1>", callback2)
 
 
 def callback3(event):
-    root = Tk()
-    root.geometry("550x150")
-    root.title('Manual')
-    text = Text(root, width=550, height=150)
-    text.insert(INSERT, "The first button 'upload' on the left is used to upload photos,\n"
-                        "Then click the middle 'start' button, you will see the original photo,\n"
-                        "the photo when you were young and the photo when you were old respectively.\n"
-                        "The right button can clear the window for next uploading.\n")
-    text.place(x=0, y=0)
-    text.configure(state="disabled")
+    webbrowser.open_new("http://jellyfin.orangetien.icu:1499/")
 
 
 link3 = tk.Label(window, text="Manual", fg="grey")
-link3.place(x=188, y=580)
+link3.place(x=148, y=585)
 link3.bind("<Button-1>", callback3)
 
 
@@ -136,6 +145,7 @@ def callback4(event):
 middle_label.bind("<Button-1>", callback4)
 
 
+
 # 8. implement the button function
 
 # implement button start
@@ -146,8 +156,8 @@ def start(*args):
     cmd = 'python test.py --input_dir ./Upload --style ' + style + ' --gpu -1'
     os.system(cmd)
 
-    file_path = "./Result"
-    save_path = "./store"
+    file_path = "./store"
+    save_path = "./Result"
 
     path_dir = os.listdir(file_path)
     for filename in path_dir:  # 遍历pathDir下的所有文件filename
@@ -168,13 +178,17 @@ def start(*args):
         fileName = os.path.splitext(filename)[0]
         filepath = "./Result/" + fileName + "_" + style + ".jpg"
         subprocess.call(["open", filepath])
-
-    i = 0
-    for filename in path_dir:  # 遍历pathDir下的所有文件filename
-        i = i + 1
-        full_path = os.path.join(path, filename)  # 文件的绝对路径(包含文件的后缀名)
-        if (i > 0):
-            os.remove(full_path)
+    
+    # 弹出会话框
+    ans = messagebox.askyesno("Message","Do you want to delete the picture you just uploaded?")
+    # 返回值为True或者False
+    if (ans == True):
+        i = 0
+        for filename in path_dir:  # 遍历pathDir下的所有文件filename
+            i = i + 1
+            full_path = os.path.join(path, filename)  # 文件的绝对路径(包含文件的后缀名)
+            if (i > 0):
+                os.remove(full_path)
 
 
 window.button_start.bind('<Button-1>', start)

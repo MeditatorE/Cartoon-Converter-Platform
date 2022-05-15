@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AboutUs</title>
+
+    <style type="text/css">
+        *{/* 通用选择器 */
+            margin:0;
+            padding:0;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow-x: hidden;
+        }
+
+        /*banner图部分*/
+        .slogan{
+            width:100%;
+            height:80%;
+            border: rgba(255, 233, 182, 0) solid 2px;
+        }
+        .banner_img{
+            width:100%;
+            height:100%;
+            border: rgba(255, 233, 182, 0) solid 2px;
+        }
+
+        .slogan .intro{
+            position: relative;
+            /*top: -55%;*/
+            top: -60%;
+            left: 50px;
+        }
+
+        .introduction1{
+            font-family: 黑体;
+            position: relative;
+            color:white;
+            text-shadow: 2px 2px 3px rgba(7, 11, 43, 0.73);
+            font-size: 36px;
+        }
+
+        .introduction2{
+            font-family: 仿宋;
+            color: #000000;
+            text-shadow: 2px 2px 3px rgba(7, 10, 50, 0.66);
+            font-size: 28px;
+        }
+
+        /*about us主体部分*/
+        .AboutUs{
+            background: white;
+            /*border: #ffe9b6 solid 2px;*/
+            width: 90%;
+            height: 1500px;
+            left:60px;
+            position: relative;
+            /*移动这个框*/
+            top: -30%;
+            box-shadow: 1px 1px 3px 2px #ffe9b6 ;
+            /*box-shadow 水平阴影 垂直阴影 模糊距离 阴影尺寸 阴影颜色 内/外阴影（ 想要内阴影改为inset）*/
+            /*显现在上层*/
+        }
+        .divIntro{
+            width: 75%;
+            height: 5%;
+            margin-top: 40px;
+        }
+        /*Contact us*/
+        .divTilte{
+            width: 50%;
+            height: 5%;
+            margin-top: 40px;
+            /*border: #a2a2e5 solid 1px;*/
+        }
+
+        .listTltle{
+            font-family: 仿宋;
+            font-size: 40px;
+            font-weight: bolder;
+            color: black;
+            border: solid rgba(255, 233, 182, 0.01) 1px;
+            width: 300px;
+            margin-top: 10px;
+            margin-left: 30px;
+            text-shadow: 1px 1px 2px rgba(255, 232, 155, 0.87);
+        }
+        .fl{
+            float:left;
+        }
+
+        /*information*/
+        .AboutUs_Content{
+            border: rgba(182, 203, 255, 0) solid 2px;
+            width: 80%;
+            height: 1200px;
+            margin: 0px auto;
+        }
+        .information{
+            border: rgba(189, 182, 255, 0.01) solid 2px;
+            width: 100%;
+            height: auto;
+        }
+        /*显示出来的个人的信息*/
+        .me_individul{
+            border: rgba(232, 102, 102, 0) solid 2px;
+            width:100%;
+            height: 60px;
+            /*text-align: inherit;*/
+        }
+        .img_circle{
+            width:60px;
+            height:60px;
+            border-radius: 50%;
+        }
+        .individual_name{
+            font-family: 黑体;
+            font-size:25px;
+            line-height: 60px; /* 设置垂直居中 */
+            margin-left:10px;
+            padding-left: 10px;
+        }
+        /*content*/
+        .individual_content{
+            width: 100%;
+            height:auto;
+            /*margin-top: 10px;*/
+            font-family:华文仿宋;
+            font-size: 18px;
+        }
+        .logo{
+            width:50px;
+            height:50px;
+            border-radius: 50%;
+        }
+
+
+        .td_left{
+            width: 100px;
+            text-align: right;/*右对齐*/
+            height: 45px;/*每个行的高度高一点，有间隔*/
+        }
+        .td_right{
+            padding-left: 50px;/*让文本和框之间有距离*/
+        }
+        .hr{
+            border: solid 1px rgb(252,220,107);
+        }
+
+        .link{
+            width: 20%;
+            heght: 50px;
+            margin-bottom: 30px;
+            float: right;
+        }
+        .link p a{
+            color: rgb(252,220,107);
+            text-decoration:none;
+
+        }
+
+    </style>
+
+</head>
+<body>
+<!--banner图-->
+<div class="slogan" style="height: 100%">
+    <img class="banner_img" src="../../img/banner1.jpeg" style="height: 100%">
+    <div class="intro">
+        <h1 class="introduction1">About Us</h1>
+        <br>
+        <h2 class="introduction2">If you have any suggestions , Feel free to contact us please</h2>
+    </div>
+</div>
+<!--main部分-->
+<div class="AboutUs">
+    <div class="divIntro" >
+        <p class="" style="position: relative;top:40px;"  >
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are computer science and technology students from M.U.S.T.
+        </p>
+        <p class="" style="position: relative;top:60px;">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Below is our contact information, including telephone, email. If you need, you can contact us at any time.
+        </p>
+    </div>
+
+    <div class="divTilte" >
+        <p class="listTltle"   >Contact us</p>
+    </div>
+    <!--    每个人的信息-->
+    <div class="AboutUs_Content">
+        <!--        第一个人的信息-->
+        <div class="information">
+            <div class="me_individul">
+                <img class="img_circle" style="float:left;"
+                     src="../img/1.jpg"
+                     alt="" width="100%"/>
+                <span class="individual_name" style="float:left;">Tian Jincheng</span>
+            </div>
+            <!--内容-->
+
+            <div class="individual_content" >
+                <table>
+                    <tr>
+                        <td class="td_left fl">
+                            <img class="logo fl" src="../img/icon/tel.png" alt="" />
+                        </td>
+                        <td class="td_right fr">
+                            <label>18932485617</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_left fl">
+                            <img class="logo fl" src="../img/icon/email.png" alt="" />
+                        </td>
+                        <td class="td_right fr">
+                            <label>834818935alger@gmail.com</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_left fl">
+                            <img class="logo fl" src="../img/icon/base.png" alt="" />
+                        </td>
+                        <td class="td_right fr">
+                            <label>Zhuhai hengqin</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_left fl">
+                            <img class="logo fl" src="../img/icon/bio.png" alt="" />
+                        </td>
+                        <td class="td_right fr">
+                            <label>Starry starry night.</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <br/>
+        <hr class="hr">
+        <br/>
+
+        <!--        第2个人的信息-->
+        <div class="information">
+            <div class="me_individul">
+                <img class="img_circle" style="float:left;"
+                     src="../img/2.jpg"
+                     alt="" width="100%"/>
+                <span class="individual_name" style="float:left;">Zhou Yunpeng</span>
+            </div>
+            <!--内容-->
+
+            <div class="individual_content" >
+                <table>
+                    <tr>
+                        <td class="td_left fl">
+                            <img class="logo fl" src="../img/icon/tel.png" alt="" />
+                        </td>
+                        <td class="td_right fr">
+                            <label>15170088525</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_left fl">
+                            <img class="logo fl" src="../img/icon/email.png" alt="" />
+                        </td>
+                        <td class="td_right fr">
+                            <label>1206710225@qq.com</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_left fl">
+                            <img class="logo fl" src="../img/icon/base.png" alt="" />
+                        </td>
+                        <td class="td_right fr">
+                            <label>Zhuhai hengqin</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_left fl">
+                            <img class="logo fl" src="../img/icon/bio.png" alt="" />
+                        </td>
+                        <td class="td_right fr">
+                            <label>I like to feel in control, not free to play with luck.</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <br/>
+        <hr class="hr">
+        <br/>
+
+        <!--        第3个人的信息-->
+        <div class="information">
+            <div class="me_individul">
+                <img class="img_circle" style="float:left;"
+                     src="../img/3.jpg"
+                     alt="" width="100%"/>
+                <span class="individual_name" style="float:left;">Sun Chen</span>
+            </div>
+            <!--content-->
+            <div class="individual_content" >
+                <table>
+                    <tr>
+                        <td class="td_left fl">
+                            <img class="logo fl" src="../img/icon/tel.png" alt="" />
+                        </td>
+                        <td class="td_right fr">
+                            <label>13821118707</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_left fl">
+                            <img class="logo fl" src="../img/icon/email.png" alt="" />
+                        </td>
+                        <td class="td_right fr">
+                            <label>15620242877@163.com</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_left fl">
+                            <img class="logo fl" src="../img/icon/base.png" alt="" />
+                        </td>
+                        <td class="td_right fr">
+                            <label>Macau taipa</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_left fl">
+                            <img class="logo fl" src="../img/icon/bio.png" alt="" />
+                        </td>
+                        <td class="td_right fr">
+                            <label>https://github.com/MeditatorE</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <br/>
+        <hr class="hr">
+        <br/>
+
+        <!--        第4个人的信息-->
+        <div class="information">
+            <div class="me_individul">
+                <img class="img_circle" style="float:left;"
+                     src="../img/4.jpg"
+                     alt="" width="100%"/>
+                <span class="individual_name" style="float:left;">Chen Xinyun</span>
+            </div>
+            <!--内容-->
+
+            <div class="individual_content" >
+                <table>
+                    <tr>
+                        <td class="td_left fl">
+                            <img class="logo fl" src="../img/icon/tel.png" alt="" />
+                        </td>
+                        <td class="td_right fr">
+                            <label>17859711563</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_left fl">
+                            <img class="logo fl" src="../img/icon/email.png" alt="" />
+                        </td>
+                        <td class="td_right fr">
+                            <label>ChristineChen921@outlook.com</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_left fl">
+                            <img class="logo fl" src="../img/icon/base.png" alt="" />
+                        </td>
+                        <td class="td_right fr">
+                            <label>Macau taipa</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_left fl">
+                            <img class="logo fl" src="../img/icon/bio.png" alt="" />
+                        </td>
+                        <td class="td_right fr">
+                            <label>https://github.com/youn921</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<div class="link fr">
+    <p>How to use?<a href="UserManual.html">UserManual</a></p>
+</div>
+</body>
+</html>
