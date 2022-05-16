@@ -1,0 +1,35 @@
+{
+    "license": "AGPL-3.0-only",
+    "type": "project",
+    "name": "rodber/chevereto-free",
+    "description": "Community/Personal Image Hosting",
+    "homepage": "https://github.com/rodber/chevereto-free",
+    "keywords": [
+        "image-hosting",
+        "upload-image",
+        "gallery"
+    ],
+    "authors": [
+        {
+            "name": "Rodolfo Berrios",
+            "email": "inbox@rodolfoberrios.com"
+        }
+    ],
+    "require": {
+        "php": "~7.4",
+        "ext-exif": "*",
+        "ext-gd": "*",
+        "ext-json": "*",
+        "phpmailer/phpmailer": "~6.5",
+        "jbroadway/urlify": "~1.1.2",
+        "mobiledetect/mobiledetectlib": "^2.8",
+        "tijsverkoyen/akismet": "~1.0",
+        "mlocati/ip-lib": "^1.17"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "vendor-dir": "app/vendor"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
