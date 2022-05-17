@@ -98,4 +98,6 @@ In this part, we need to integrate the online and offline parts and optimize the
 
 Here is the Demo:
 
+![](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/Demo/homepage.gif)
+
 
