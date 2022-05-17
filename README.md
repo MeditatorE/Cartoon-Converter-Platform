@@ -100,4 +100,11 @@ Here is the Demo:
 
 ![](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/Demo/homepage.gif)
 
+## Evluate
+For the quality of the output picture, we use two indicators for evaluation, **PSNR and SSIM**.
+
+**PSNR** is the abbreviation of "Peak Signal to Noise Ratio", that is, the peak signal-to-noise ratio, which is an objective standard for evaluating images, which has limitations, Generally used for an engineering project between maximum signal and background noise. It is the logarithm of the mean square error between the original image and the processed image relative to **(2^n-1)^2** (the square of the maximum value of the signal, n is the number of bits per sample value), and its unit is dB.
+
+**SSIM** (Structural Similarity), structural similarity, is an indicator to measure the similarity of two images. Structural similarity index defines structural information as independent of brightness and contrast from the perspective of image composition, reflecting the properties of object structure in the scene, and models distortion as a combination of three different factors of brightness, contrast and structure. The mean is used as an estimate of brightness, the standard deviation is used as an estimate of contrast, and the covariance is used as a measure of structural similarity.
+
 
