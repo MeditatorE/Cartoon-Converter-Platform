@@ -90,4 +90,12 @@ In the second stage, we mainly develop an online resource sharing platform.
 In this part, we mainly use the [**Chevereto**](https://github.com/MeditatorE/Cartoon-Converter-Platform/tree/main/Chevereto-free) framework to build our [**web page**](http://jellyfin.orangetien.icu:1500/). Our web page is built on a server. Unfortunately, our link is temporary, so we provide A [**tutorial**](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/Chevereto-free/cheverto.pdf) to help you quickly rebuild this page.
 
 Anyone can upload and download images from our database on our resource sharing platform, we provide a Demo here:
-![]()
+
+![](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/Demo/webpage.gif)
+
+# Sprint III
+In this part, we need to integrate the online and offline parts and optimize the function of our converter. We also developed our[**personal web page and online user manual**](https://github.com/MeditatorE/Cartoon-Converter-Platform/tree/main/homepage) at this stage to help users quickly understand how to use our project.
+
+Here is the Demo:
+
+
