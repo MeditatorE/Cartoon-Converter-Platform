@@ -49,3 +49,10 @@ We uploaded our development plan on Jira. In general, our development process is
 **Sprint III** mainly responsible for integrating the online and offline parts and optimizing the entire project.
 
 You can go to our [**development page on Jira**](https://zyp-001.atlassian.net/jira/software/c/projects/CCP/issues) to learn more.
+
+## Sprint I
+At this stage we mainly need to train the model and implement a GUI as an interface to help users access the model. 
+We use a model called Cartoon GAN, which was presented in a paper at the 2018 CVPR conference called ***CartoonGAN: Generative Adversarial Networks for Photo Cartoonization***. Its specific structure is shown below.
+<img width="831" alt="截屏2022-05-17 下午8 25 08" src="https://user-images.githubusercontent.com/90904086/168810282-25bbabf4-8d82-4f10-b2f0-d7e1d6a85442.png">
+
+
