@@ -116,7 +116,7 @@ For the quality of the output picture, we use two indicators for evaluation, **P
 
 <img width="439" alt="截屏2022-05-17 下午9 36 56" src="https://user-images.githubusercontent.com/90904086/168824010-8a9608f7-410b-446f-b463-a27813d6927e.png">
 
-We have also uploaded all images and related codes for evaluation, if you are interested [**please click here**]().
+We have also uploaded all images and related codes for evaluation, if you are interested [**please click here**](https://github.com/MeditatorE/Cartoon-Converter-Platform/tree/main/Evaluate).
 
 ### Result
 Through the analysis of SSIM and PSNR, we can confirm that our generated images are of good quality without distortion and structural confusion, and our image processing tools have new performance.
