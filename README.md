@@ -150,7 +150,9 @@ In addition, in the future we may continue to develop the Windows version of thi
 
 # Reference
 [**Cartoon GAN Paper**](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/Chevereto-free/cheverto.pdf)
+
 [**Webpade Frame**](https://github.com/rodber/chevereto-free)
+
 [**Mode Implement**](https://github.com/MeditatorE/CartoonGAN-Test-Pytorch-Torch)
 
 
