@@ -118,21 +118,11 @@ For the quality of the output picture, we use two indicators for evaluation, **P
 
 We randomly select 20 images to calculate these two indicators, and then calculate the average, the results are shown below:
 
-Name | Academy | score
-- | :-: | :-:
-Harry Potter | Gryffindor| 90
-Hermione Granger | Gryffindor | 100
-Draco Malfoy | Slytherin | 90
+| Indicators/Style | Hayao  | Hosoda | Paprika | Shinkai |
+| :--------------: | :----: | :----: | :-----: | :-----: |
+|     **SSIM**     | 0.649  | 0.692  |  0.632  |  0.743  |
+|     **PSNR**     | 28.139 | 28.288 | 28.078  | 28.431  |
 
-Dataset	# Images	Resolution	Download Size	TFrecords Size	Gamma
-FFHQ	70,000	256×256	13GB	13GB	10
-CLEVR	100,015	256×256	18GB	15.5GB	40
-Cityscapes	24,998	256×256	1.8GB	8GB	20
-LSUN-Bedrooms	3,033,042	256×256	42.8GB	Up to 480GB	100
-
-<p>
-  <img src="[https://user-images.githubusercontent.com/90904086/168825793-c00df79b-f039-4b31-8e39-1b96de12e68a.png]" align="middle" />
-</p>
 
 
 
