@@ -112,7 +112,7 @@ In this part, we need to integrate the online and offline parts and optimize the
 
 Here is the Demo:
 
-![](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/Demo/Manual.gif)
+![](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/Demo/manual.gif)
 
 ## Evluate
 For the quality of the output picture, we use two indicators for evaluation, **PSNR and SSIM**.
