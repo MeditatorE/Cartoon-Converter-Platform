@@ -141,4 +141,6 @@ All planned functions of our entire project have been completed, and the evaluat
 
 In summary, our project development process and subsequent testing phases have been completed. In the subsequent work, we plan to use more abundant data to improve the quality of the generated images to further optimize the performance of this project.
 
+In addition, in the future we may continue to develop the Windows version of this project and make this project compatible with more image formats.
+
 
