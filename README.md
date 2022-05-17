@@ -84,3 +84,7 @@ In the implementation part, in order to avoid the high cost of collecting differ
 For GUI, we use Tkinter to implement, we embed all APIs for accessing models or web pages into the GUI, and the GUI looks as shown in the following figure:
 
 ![WechatIMG43](https://user-images.githubusercontent.com/90904086/168814637-aabc9cec-6622-48e7-8545-9f1124150962.jpeg)
+
+# Sprint II
+In the second stage, we mainly develop an online resource sharing platform. 
+In this part, we mainly use the [**Chevereto**]() framework to build our [**web page**](http://jellyfin.orangetien.icu:1500/). Our web page is built on a server. Unfortunately, our link is temporary, so we provide A [**tutorial**]() to help you quickly rebuild this page.
