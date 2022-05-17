@@ -117,6 +117,7 @@ For the quality of the output picture, we use two indicators for evaluation, **P
 <img width="439" alt="截屏2022-05-17 下午9 36 56" src="https://user-images.githubusercontent.com/90904086/168824010-8a9608f7-410b-446f-b463-a27813d6927e.png">
 
 ### Result
+Through the analysis of SSIM and PSNR, we can confirm that our generated images are of good quality without distortion and structural confusion, and our image processing tools have new performance.
 We randomly select 20 images to calculate these two indicators, and then calculate the average, the results are shown below:
 
 | Indicators/Style | Hayao  | Hosoda | Paprika | Shinkai |
@@ -124,6 +125,6 @@ We randomly select 20 images to calculate these two indicators, and then calcula
 |     **SSIM**     | 0.649  | 0.692  |  0.632  |  0.743  |
 |     **PSNR**     | 28.139 | 28.288 | 28.078  | 28.431  |
 
-Through the analysis of SSIM and PSNR, we can confirm that our generated images are of good quality without distortion and structural confusion, and our image processing tools have new performance.
+
 
 
