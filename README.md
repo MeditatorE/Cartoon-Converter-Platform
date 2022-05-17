@@ -94,7 +94,7 @@ Anyone can upload and download images from our database on our resource sharing 
 ![](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/Demo/webpage.gif)
 
 # Sprint III
-In this part, we need to integrate the online and offline parts and optimize the function of our converter. We also developed our[**personal web page and online user manual**]() at this stage to help users quickly understand how to use our project.
+In this part, we need to integrate the online and offline parts and optimize the function of our converter. We also developed our[**personal web page and online user manual**](https://github.com/MeditatorE/Cartoon-Converter-Platform/tree/main/homepage) at this stage to help users quickly understand how to use our project.
 
 Here is the Demo:
 
