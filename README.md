@@ -5,7 +5,7 @@ Copyright @ 2022, Chen Sun, JinchengTian, Xinyun Chen, Yunpeng Zhou. All rights 
 
 Please click here for our [**personal homepage**](https://github.com/MeditatorE/Cartoon-Converter-Platform/tree/main/homepage) to contact us.
 
-### Tips
+### Tips:
 1. This project is base on the **MAC OS** system, we have not developed a Windows version for the time being.
 
 2. This tool can only handle .png and .jpg formats at present, please make sure that the images you upload belong to the above two formats.
