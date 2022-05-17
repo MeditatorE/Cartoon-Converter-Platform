@@ -1,0 +1,8 @@
+python>=3.8
+Flask
+base64
+tqdm
+requests
+torch
+Pytorc>=0.3
+
