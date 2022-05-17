@@ -118,6 +118,7 @@ For the quality of the output picture, we use two indicators for evaluation, **P
 
 ### Result
 Through the analysis of SSIM and PSNR, we can confirm that our generated images are of good quality without distortion and structural confusion, and our image processing tools have new performance.
+
 We randomly select 20 images to calculate these two indicators, and then calculate the average, the results are shown below:
 
 | Indicators/Style | Hayao  | Hosoda | Paprika | Shinkai |
