@@ -53,6 +53,7 @@ You can go to our [**development page on Jira**](https://zyp-001.atlassian.net/j
 ## Sprint I
 At this stage we mainly need to train the model and implement a GUI as an interface to help users access the model. 
 We use a model called Cartoon GAN, which was presented in a paper at the 2018 CVPR conference called [***CartoonGAN: Generative Adversarial Networks for Photo Cartoonization***](https://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_CartoonGAN_Generative_Adversarial_CVPR_2018_paper.pdf). Its specific structure is shown below:
+
 <img width="831" alt="截屏2022-05-17 下午8 25 08" src="https://user-images.githubusercontent.com/90904086/168810282-25bbabf4-8d82-4f10-b2f0-d7e1d6a85442.png">
 ### What is Cartoon GAN? And Why Cartoon GAN?
 CartoonGAN is a Generative Adversarial Network (GAN) framework specialized for cartoon stylization. 
@@ -81,4 +82,5 @@ The result is that the model is able to generate high-quality cartoon images fro
 In the implementation part, in order to avoid the high cost of collecting different styles of datasets, we finally decided to download the model pre-training model and related code implementation from a [**GitHub project**](https://github.com/MeditatorE/CartoonGAN-Test-Pytorch-Torch).
 
 For GUI, we use Tkinter to implement, we embed all APIs for accessing models or web pages into the GUI, and the GUI looks as shown in the following figure:
+
 ![WechatIMG43](https://user-images.githubusercontent.com/90904086/168814637-aabc9cec-6622-48e7-8545-9f1124150962.jpeg)
