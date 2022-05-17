@@ -55,7 +55,16 @@ At this stage we mainly need to train the model and implement a GUI as an interf
 We use a model called Cartoon GAN, which was presented in a paper at the 2018 CVPR conference called [***CartoonGAN: Generative Adversarial Networks for Photo Cartoonization***](https://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_CartoonGAN_Generative_Adversarial_CVPR_2018_paper.pdf). Its specific structure is shown below:
 <img width="831" alt="截屏2022-05-17 下午8 25 08" src="https://user-images.githubusercontent.com/90904086/168810282-25bbabf4-8d82-4f10-b2f0-d7e1d6a85442.png">
 ### What is Cartoon GAN? And Why Cartoon GAN?
+CartoonGAN is a Generative Adversarial Network (GAN) framework specialized for cartoon stylization. 
 
+Actually, existing methods are not satisfied with the cartoonization effect, because **(1)** cartoon style has unique characteristics, is highly simplified and abstract, and **(2)** cartoon images tend to have sharp edges, smooth color shading and relatively simple textures. 
 
+However, this model proposes two new losses suitable for cartoonization: **(1)** the semantic content loss, which is formulated as sparse regularization in the high-level feature maps of the VGG network to cope with the large stylistic variation between photos and cartoons, and **(2)** Edge-promoting adversarial loss for preserving sharp edges. We further introduce an initialization phase to improve the convergence of the network to the target manifold. 
 
+The result is that the model is able to generate high-quality cartoon images from real-world photos.
 
+![0](https://user-images.githubusercontent.com/90904086/168812044-3b8bbbd5-8067-4699-b541-e65bab341480.png)
+![0_Hosoda](https://user-images.githubusercontent.com/90904086/168812106-4fe2d135-68e8-4e15-9a60-1c577180abd5.png)
+![0_Shinkai](https://user-images.githubusercontent.com/90904086/168812154-f17d3f8e-f9b4-417f-89c7-beb719e75dba.png)
+![0_Paprika](https://user-images.githubusercontent.com/90904086/168812185-bd3806a1-24d6-4420-93cf-b8839aa4b650.png)
+![0_Hayao](https://user-images.githubusercontent.com/90904086/168812215-f3f99993-e3a1-4254-9cfe-95e487b450f4.png)
