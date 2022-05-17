@@ -31,7 +31,7 @@ We have provided an interface for entering the platform on the converter and upl
 https://github.com/MeditatorE/Cartoon-Converter-Platform.git
 cd Cartoon-Converter-Platform
 ```
-### 2. Install required modules
+### 2. Install [**required**](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/requirements.txt) modules
 
 ```
 pip install -r requirements.txt
