@@ -3,7 +3,7 @@ This Project for CS252 Final Project @**Macau university of Science and Technolo
 
 **Copyright** @ 2022, Chen Sun, JinchengTian, Xinyun Chen, Yunpeng Zhou. All rights reserved.
 
-Please click here for our [**personal homepage**](https://github.com/MeditatorE/Cartoon-Converter-Platform/tree/main/homepage) to contact us.
+Please click here for our [**personal homepage**](https://github.com/MeditatorE/Cartoon-Converter-Platform/tree/main/homepage) to contact us. 
 
 ### Tips:
 1. This project is base on the **MAC OS** system, we have not developed a Windows version for the time being.
