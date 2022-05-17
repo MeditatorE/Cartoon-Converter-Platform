@@ -149,7 +149,7 @@ In summary, our project development process and subsequent testing phases have b
 In addition, in the future we may continue to develop the Windows version of this project and make this project compatible with more image formats.
 
 # Reference
-[**Cartoon GAN Paper**](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/Chevereto-free/cheverto.pdf)
+[**Cartoon GAN Paper**](https://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_CartoonGAN_Generative_Adversarial_CVPR_2018_paper.pdf)
 
 [**Webpade Frame**](https://github.com/rodber/chevereto-free)
 
