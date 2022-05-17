@@ -76,3 +76,9 @@ The result is that the model is able to generate high-quality cartoon images fro
 ![0_Shinkai](https://user-images.githubusercontent.com/90904086/168812154-f17d3f8e-f9b4-417f-89c7-beb719e75dba.png)
 ![0_Paprika](https://user-images.githubusercontent.com/90904086/168812185-bd3806a1-24d6-4420-93cf-b8839aa4b650.png)
 ![0_Hayao](https://user-images.githubusercontent.com/90904086/168812215-f3f99993-e3a1-4254-9cfe-95e487b450f4.png)
+
+### About code implementation
+In the implementation part, in order to avoid the high cost of collecting different styles of datasets, we finally decided to download the model pre-training model and related code implementation from a [**GitHub project**](https://github.com/MeditatorE/CartoonGAN-Test-Pytorch-Torch).
+
+For GUI, we use Tkinter to implement, we embed all APIs for accessing models or web pages into the GUI, and the GUI looks as shown in the following figure:
+![WechatIMG43](https://user-images.githubusercontent.com/90904086/168814637-aabc9cec-6622-48e7-8545-9f1124150962.jpeg)
