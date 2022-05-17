@@ -105,6 +105,15 @@ For the quality of the output picture, we use two indicators for evaluation, **P
 
 **PSNR** is the abbreviation of "Peak Signal to Noise Ratio", that is, the peak signal-to-noise ratio, which is an objective standard for evaluating images, which has limitations, Generally used for an engineering project between maximum signal and background noise. It is the logarithm of the mean square error between the original image and the processed image relative to **(2^n-1)^2** (the square of the maximum value of the signal, n is the number of bits per sample value), and its unit is dB.
 
+<img width="313" alt="截屏2022-05-17 下午9 36 10" src="https://user-images.githubusercontent.com/90904086/168823961-1513b654-e6a2-4100-8afe-0c45cece82b9.png">
+
 **SSIM** (Structural Similarity), structural similarity, is an indicator to measure the similarity of two images. Structural similarity index defines structural information as independent of brightness and contrast from the perspective of image composition, reflecting the properties of object structure in the scene, and models distortion as a combination of three different factors of brightness, contrast and structure. The mean is used as an estimate of brightness, the standard deviation is used as an estimate of contrast, and the covariance is used as a measure of structural similarity.
+
+<img width="460" alt="截屏2022-05-17 下午9 36 36" src="https://user-images.githubusercontent.com/90904086/168823988-3101c1d7-d97e-4d0d-8fa7-079d3deb05e4.png">
+
+<img width="423" alt="截屏2022-05-17 下午9 36 50" src="https://user-images.githubusercontent.com/90904086/168823999-a7e27f65-6a7f-4848-ad86-7781291c7abf.png">
+
+<img width="439" alt="截屏2022-05-17 下午9 36 56" src="https://user-images.githubusercontent.com/90904086/168824010-8a9608f7-410b-446f-b463-a27813d6927e.png">
+
 
 
