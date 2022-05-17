@@ -1,7 +1,7 @@
 # Cartoon-Converter-Platform
-This Project for CS252 Final Project @Macau university of Science and Technology.
+This Project for CS252 Final Project @**Macau university of Science and Technology**.
 
-Copyright @ 2022, Chen Sun, JinchengTian, Xinyun Chen, Yunpeng Zhou. All rights reserved.
+**Copyright** @ 2022, Chen Sun, JinchengTian, Xinyun Chen, Yunpeng Zhou. All rights reserved.
 
 Please click here for our [**personal homepage**](https://github.com/MeditatorE/Cartoon-Converter-Platform/tree/main/homepage) to contact us.
 
