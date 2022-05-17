@@ -29,6 +29,7 @@ We have provided an interface for entering the platform on the converter and upl
 
 ```
 https://github.com/MeditatorE/Cartoon-Converter-Platform.git
+cd Cartoon-Converter-Platform
 ```
 ### 2. Install required modules
 
