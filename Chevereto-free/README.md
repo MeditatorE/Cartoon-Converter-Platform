@@ -4,20 +4,6 @@
 
 Chevereto-Free allows you to create a full-featured image hosting website on your own server. It's your hosting and your rules, say goodbye to closures and restrictions.
 
-## ✨ Screens
-
-![Homepage](.github/screen/1a.webp)
-
-![Uploader light](.github/screen/2a.webp)
-
-![Uploader dark](.github/screen/3a.webp)
-
-![Upload complete](.github/screen/4a.webp)
-
-![Explorer](.github/screen/5a.webp)
-
-![Dashboard](.github/screen/6a.webp)
-
 ## 🦓 About this fork
 
 Chevereto-Free is a fork from [Chevereto V3.16.2](https://releases.chevereto.com/3.X/3.16/3.16.2.html) in which only basic features are preserved. Chevereto-Free is for personal usage and small communities.
