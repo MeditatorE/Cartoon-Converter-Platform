@@ -63,6 +63,7 @@ Actually, existing methods are not satisfied with the cartoonization effect, bec
 
 **(2)** cartoon images tend to have sharp edges, smooth color shading and relatively simple textures. 
 
+
 However, this model proposes two new losses suitable for cartoonization: 
 
 **(1)** the semantic content loss, which is formulated as sparse regularization in the high-level feature maps of the VGG network to cope with the large stylistic variation between photos and cartoons, and 
