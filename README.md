@@ -41,7 +41,11 @@ python main.py
 ```
 # How did we develop this project?
 We uploaded our development plan on Jira. In general, our development process is divided into three stages: 
+
 **Sprint I** mainly develops local cartoon converters, 
+
 **Sprint II** mainly develops online resource sharing platforms and 
+
 **Sprint III** mainly responsible for integrating the online and offline parts and optimizing the entire project.
+
 You can go to our [**development page on Jira**](https://zyp-001.atlassian.net/jira/software/c/projects/CCP/issues) to learn more.
