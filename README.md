@@ -119,7 +119,7 @@ For the quality of the output picture, we use two indicators for evaluation, **P
 We randomly select 20 images to calculate these two indicators, and then calculate the average, the results are shown below:
 
 <p>
-  <img src="![WechatIMG57](https://user-images.githubusercontent.com/90904086/168825793-c00df79b-f039-4b31-8e39-1b96de12e68a.png)" align="middle" />
+  <img src="[https://user-images.githubusercontent.com/90904086/168825793-c00df79b-f039-4b31-8e39-1b96de12e68a.png]" align="middle" />
 </p>
 
 
