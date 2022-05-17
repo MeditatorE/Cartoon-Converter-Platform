@@ -56,6 +56,7 @@ We use a model called Cartoon GAN, which was presented in a paper at the 2018 CV
 
 <img width="831" alt="截屏2022-05-17 下午8 25 08" src="https://user-images.githubusercontent.com/90904086/168810282-25bbabf4-8d82-4f10-b2f0-d7e1d6a85442.png">
 ### What is Cartoon GAN? And Why Cartoon GAN?
+
 CartoonGAN is a Generative Adversarial Network (GAN) framework specialized for cartoon stylization. 
 
 Actually, existing methods are not satisfied with the cartoonization effect, because 
