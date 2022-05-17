@@ -57,9 +57,17 @@ We use a model called Cartoon GAN, which was presented in a paper at the 2018 CV
 ### What is Cartoon GAN? And Why Cartoon GAN?
 CartoonGAN is a Generative Adversarial Network (GAN) framework specialized for cartoon stylization. 
 
-Actually, existing methods are not satisfied with the cartoonization effect, because **(1)** cartoon style has unique characteristics, is highly simplified and abstract, and **(2)** cartoon images tend to have sharp edges, smooth color shading and relatively simple textures. 
+Actually, existing methods are not satisfied with the cartoonization effect, because 
 
-However, this model proposes two new losses suitable for cartoonization: **(1)** the semantic content loss, which is formulated as sparse regularization in the high-level feature maps of the VGG network to cope with the large stylistic variation between photos and cartoons, and **(2)** Edge-promoting adversarial loss for preserving sharp edges. We further introduce an initialization phase to improve the convergence of the network to the target manifold. 
+**(1)** cartoon style has unique characteristics, is highly simplified and abstract, and 
+
+**(2)** cartoon images tend to have sharp edges, smooth color shading and relatively simple textures. 
+
+However, this model proposes two new losses suitable for cartoonization: 
+
+**(1)** the semantic content loss, which is formulated as sparse regularization in the high-level feature maps of the VGG network to cope with the large stylistic variation between photos and cartoons, and 
+
+**(2)** Edge-promoting adversarial loss for preserving sharp edges. We further introduce an initialization phase to improve the convergence of the network to the target manifold. 
 
 The result is that the model is able to generate high-quality cartoon images from real-world photos.
 
