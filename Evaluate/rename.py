@@ -4,6 +4,11 @@ n=0
 
 fileList=os.listdir(path)
 
+path1 = "./photo/.DS_Store"
+if os.path.exists(path1):
+    os.remove(path1)
+
+
 for i in fileList:
     
 
