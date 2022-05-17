@@ -88,3 +88,6 @@ For GUI, we use Tkinter to implement, we embed all APIs for accessing models or 
 # Sprint II
 In the second stage, we mainly develop an online resource sharing platform. 
 In this part, we mainly use the [**Chevereto**](https://github.com/MeditatorE/Cartoon-Converter-Platform/tree/main/Chevereto-free) framework to build our [**web page**](http://jellyfin.orangetien.icu:1500/). Our web page is built on a server. Unfortunately, our link is temporary, so we provide A [**tutorial**](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/Chevereto-free/cheverto.pdf) to help you quickly rebuild this page.
+
+Anyone can upload and download images from our database on our resource sharing platform, we provide a Demo here:
+![]()
