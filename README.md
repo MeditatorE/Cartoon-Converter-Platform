@@ -127,6 +127,8 @@ We randomly select 20 images to calculate these two indicators, and then calcula
 |     **PSNR**     | 28.139 | 28.288 | 28.078  | 28.431  |
 
 # Conclusion
-All planned functions of our entire project have been completed, and the evaluation results show that our image processing tools have excellent performance, and in the functional testing process, our project has completed every expected function perfectly and there are no cases that are contrary to the expected results. . In summary, our project development process and subsequent testing phases have been completed. In the subsequent work, we plan to use more abundant data to improve the quality of the generated images to further optimize the performance of this project.
+All planned functions of our entire project have been completed, and the evaluation results show that our image processing tools have excellent performance, and in the functional testing process, our project has completed every expected function perfectly and there are no cases that are contrary to the expected results.
+
+In summary, our project development process and subsequent testing phases have been completed. In the subsequent work, we plan to use more abundant data to improve the quality of the generated images to further optimize the performance of this project.
 
 
