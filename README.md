@@ -122,7 +122,6 @@ We randomly select 20 images to calculate these two indicators, and then calcula
 | :--------------: | :----: | :----: | :-----: | :-----: |
 |     **SSIM**     | 0.649  | 0.692  |  0.632  |  0.743  |
 |     **PSNR**     | 28.139 | 28.288 | 28.078  | 28.431  |
-###
 
 Through the analysis of SSIM and PSNR, we can confirm that our generated images are of good quality without distortion and structural confusion, and our image processing tools have new performance.
 
