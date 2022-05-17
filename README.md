@@ -115,5 +115,7 @@ For the quality of the output picture, we use two indicators for evaluation, **P
 
 <img width="439" alt="截屏2022-05-17 下午9 36 56" src="https://user-images.githubusercontent.com/90904086/168824010-8a9608f7-410b-446f-b463-a27813d6927e.png">
 
+We randomly select 20 images to calculate these two indicators, and then calculate the average, the results are shown below:
 
+![WechatIMG53](https://user-images.githubusercontent.com/90904086/168824454-8a13871c-2d8a-443c-8e85-5ad256f55b7a.jpeg)
 
