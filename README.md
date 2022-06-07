@@ -151,7 +151,7 @@ In addition, in the future we may continue to develop the Windows version of thi
 # Reference
 [**Cartoon GAN Paper**](https://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_CartoonGAN_Generative_Adversarial_CVPR_2018_paper.pdf)
 
-[**Webpade Frame**](https://github.com/rodber/chevereto-free)
+[**Webpage Frame**](https://github.com/rodber/chevereto-free)
 
 [**Mode Implement**](https://github.com/MeditatorE/CartoonGAN-Test-Pytorch-Torch)
 
