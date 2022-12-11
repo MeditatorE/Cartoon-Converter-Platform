@@ -112,9 +112,9 @@ In this part, we need to integrate the online and offline parts and optimize the
 
 Here is the Demo:
 
-![](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/Demo/Manual.gif)
+![](https://github.com/MeditatorE/Cartoon-Converter-Platform/blob/main/Demo/manual.gif)
 
-## Evluate
+## Evaluate
 For the quality of the output picture, we use two indicators for evaluation, **PSNR and SSIM**.
 
 **PSNR** is the abbreviation of "Peak Signal to Noise Ratio", that is, the peak signal-to-noise ratio, which is an objective standard for evaluating images, which has limitations, Generally used for an engineering project between maximum signal and background noise. It is the logarithm of the mean square error between the original image and the processed image relative to **(2^n-1)^2** (the square of the maximum value of the signal, n is the number of bits per sample value), and its unit is dB.
@@ -151,7 +151,7 @@ In addition, in the future we may continue to develop the Windows version of thi
 # Reference
 [**Cartoon GAN Paper**](https://openaccess.thecvf.com/content_cvpr_2018/papers/Chen_CartoonGAN_Generative_Adversarial_CVPR_2018_paper.pdf)
 
-[**Webpade Frame**](https://github.com/rodber/chevereto-free)
+[**Webpage Frame**](https://github.com/rodber/chevereto-free)
 
 [**Mode Implement**](https://github.com/MeditatorE/CartoonGAN-Test-Pytorch-Torch)
 
