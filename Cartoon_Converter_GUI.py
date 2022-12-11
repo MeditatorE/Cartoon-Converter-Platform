@@ -82,6 +82,7 @@ combobox.place(x=350, y=400)
 # 6. set hyperlink and text
 
 def callback1(event):
+    # need to modify the link
     webbrowser.open_new("http://jellyfin.orangetien.icu:1500/")
 
 
@@ -124,6 +125,7 @@ link2.bind("<Button-1>", callback2)
 
 
 def callback3(event):
+    # need to modify the link
     webbrowser.open_new("http://jellyfin.orangetien.icu:1499/")
 
 
@@ -151,6 +153,19 @@ middle_label.bind("<Button-1>", callback4)
 # implement button start
 
 def start(*args):
+    
+    # clear folder "store"
+    delete_path="./store"
+    path_dir = os.listdir(delete_path)
+    j = 0
+    for filename in path_dir:  # 遍历pathDir下的所有文件filename
+        j = j + 1
+        full_path = os.path.join(delete_path, filename)  # 文件的绝对路径(包含文件的后缀名)
+        if (j > 0):
+            os.remove(full_path)
+
+    
+    # select the style
     style = combobox.get()
 
     cmd = 'python test.py --input_dir ./Upload --style ' + style + ' --gpu -1'
